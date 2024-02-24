@@ -1,0 +1,38 @@
+.tagline{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    background-color: #141718;
+    color: #fff;
+    font-family: var(--font-main);
+
+    a{
+        color: var(--tagline-link);
+    }
+}
+
+
+.tagline__text {
+
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+
+}
+.tagline__link {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    font-weight: 500;
+    font-size: 14px;
+
+    line-height: 24px;
+
+    border-bottom: 1px solid var(--tagline-link);
+}
+
+.tagline__close{
+    
+}
