@@ -10,15 +10,15 @@
     background-color: var(--dark-color);
     display: inline-block;
 
-    &--medium{
-        padding: 12px 56px;
-        font-size: 18px;
-        font-weight: 500;
-        letter-spacing: -0.4px;
-        line-height: 1.7778;
-    }   
+
+    padding: 12px 56px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    line-height: 1.7778;
+
 
     &:hover{
-        opacity: .8;
+        opacity: .9;
     }
 }
